@@ -16,5 +16,8 @@ You need to get the IP on which your Docker machine is running. To do this:
 * Run the command `docker-machine ip {DOCKER-MACHINE-NAME}`. The IP of your machine will be printed to the screen
 * Visit "http://{DOCKER.MACHINE.IP}:3000/users/" in your browser. If all went well, then a JSON array containing a list of users in the database will be rendered (the array might be empty on first run).
 
+### Behind the hood
+Please read the comments in the script.sh file to understand what's going on behind the hood when you run this script
+
 ### Author
 [**Hafiz Adewuyi** - Software Engineer, Digital Banking at Access Bank Plc](https://www.linkedin.com/in/hafizadewuyi/)
