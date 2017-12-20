@@ -9,7 +9,7 @@ This guide assumes that you have the [Docker toolbox](https://docs.docker.com/to
 
 ### Installation
 * Clone or download this repository to your machine
-* Execute the file "script.sh" in the root directory and follow the prompts to completion. You know the script is done executing when the message: "Express server listening on port 3000" is output to the shell
+* Execute the file "script.sh" in the root directory and follow the prompts to completion. You know the script is done executing when the message: "**Express server listening on port 3000**" is output to the shell
 
 ### Usage
 You need to get the IP on which your Docker machine is running. To do this:
