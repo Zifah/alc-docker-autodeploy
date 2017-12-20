@@ -10,7 +10,7 @@ cd UserManager &&
 echo "PORT=3000"$'\n'"DB_URL='mongodb://mongo/alcDemo'" > .env &&
 
 # Allow user determine which docker machine our docker images would be contained 
-echo "Do you have an existing machine where you want to run this image?" &&
+echo "Do you have an existing machine where you want to run this image? (y/N)" &&
 read hasMachine && 
 
 if [[ $hasMachine = "Y" || $hasMachine = "y" ]]; then
