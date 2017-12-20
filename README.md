@@ -13,7 +13,7 @@ This guide assumes that you have the [Docker toolbox](https://docs.docker.com/to
 
 ### Usage
 You need to get the IP on which your Docker machine is running. To do this:
-* Run the command `docker-machine ip {DOCKER-MACHINE-NAME}`. The IP of your machine will be printed to the screen
+* Run the command `docker-machine ip {DOCKER-MACHINE-NAME}` (the default machine name is **alc-exam**). The IP of your machine will be printed to the screen
 * Visit "http://{DOCKER.MACHINE.IP}:3000/users/" in your browser. If all went well, then a JSON array containing a list of users in the database will be rendered (the array might be empty on first run).
 
 ### Behind the hood
